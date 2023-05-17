@@ -1,5 +1,17 @@
 # Song_Recommender
 Building a song recommender based on what's popular right now (Billboard's Hot 100) or finding similar songs using machine learning
 
-# Project plan
-Day 1: 
+The song recommender system is based on audio features of songs. It uses Spotify's Web API to fetch audio features of songs and applies clustering techniques to group similar songs together. The song recommender system works as follows:
+
+-Fetch audio features of songs using Spotify Web API
+-Apply feature engineering techniques (e.g., PCA) to reduce dimensionality and identify important features
+-Apply clustering algorithms (e.g., K-means) to group similar songs together
+-Receive input of a seed song from the user
+-Recommend similar songs based on the cluster of the seed song
+
+# Technologies
+Spotify Web API
+Scikit-learn
+NumPy
+Pandas
+Matplotlib
