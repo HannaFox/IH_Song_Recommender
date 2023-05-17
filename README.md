@@ -1,5 +1,5 @@
 # Song_Recommender
-Building a song recommender based on Billboard's Hot 100 and finding similar songs using machine learning
+Building a song recommender based on what's popular right now (Billboard's Hot 100) and finding similar songs using machine learning
 
 # Project plan
 Day 1: 
